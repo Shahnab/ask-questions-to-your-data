@@ -1,0 +1,6 @@
+streamlit==1.18.1
+ydata-profiling[notebook,unicode,pyspark]
+xlrd==2.0.1
+streamlit-option-menu==0.3.2
+sketch
+sweetviz==2.1.4
