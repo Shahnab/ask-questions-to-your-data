@@ -25,8 +25,6 @@ tab1, tab2 = st.tabs(["Ask Questions to Data", "About the Application"])
 
 with tab1:
 
-st.write('')
-        
     def upload_data_file():
         st.session_state.file = None
         st.session_state.df = None
