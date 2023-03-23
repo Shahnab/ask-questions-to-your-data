@@ -12,10 +12,10 @@ from IPython.display import HTML, display
 import uuid
 import base64
 import json
-import tkinter
-import matplotlib
-matplotlib.use('TkAgg')
-import matplotlib.pyplot as plt
+# import tkinter
+# import matplotlib
+# matplotlib.use('TkAgg')
+# import matplotlib.pyplot as plt
 
 col1, mid, col2= st.columns([1,1,20])
 with col1:
@@ -96,7 +96,7 @@ with tab1:
 
                     # Plot the bar chart
 
-                    exec(answer1)
+#                     exec(answer1)
         
     else:
         st.write('Please upload data file in order to ask questions to it.')
