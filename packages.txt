@@ -1,5 +1,8 @@
 ##freeglut3-dev
 ##libgtk2.0-dev
 # Stable security updates
-deb http://security.debian.org/ stable-security main contrib non-free
-deb-src http://security.debian.org/ stable-security main contrib non-free
+#deb http://security.debian.org/ stable-security main contrib non-free
+#deb-src http://security.debian.org/ stable-security main contrib non-free
+
+deb https://deb.debian.org/debian bullseye main contrib non-free
+# deb-src https://deb.debian.org/debian bullseye main contrib non-free
