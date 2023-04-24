@@ -2,6 +2,19 @@ import streamlit as st
 import pandas as pd
 import asyncio
 import random
+import pandas as pd
+import streamlit as st
+import streamlit_ace as stace
+import duckdb
+import numpy as np  # for user session
+import scipy  # for user session
+import plotly_express
+import plotly.express as px  # for user session
+import plotly.figure_factory as ff  # for user session
+import matplotlib.pyplot as plt  # for user session
+import sklearn
+from ydata_profiling import ProfileReport
+from streamlit_pandas_profiling import st_profile_report
 
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
