@@ -4,3 +4,6 @@ xlrd==2.0.1
 streamlit-option-menu==0.3.2
 sketch
 sweetviz==2.1.4
+streamlit_ace
+duckdb
+streamlit_pandas_profiling
