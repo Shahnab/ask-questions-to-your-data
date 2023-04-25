@@ -1,3 +1,2 @@
-##freeglut3-dev
-##libgtk2.0-dev
-deb http://deb.debian.org/debian bullseye-updates main
+libgl1
+libtk8.6
