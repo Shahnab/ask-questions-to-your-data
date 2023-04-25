@@ -1,3 +1,2 @@
 libgl1
 libtk8.6
-TkAgg
