@@ -2,19 +2,6 @@ import streamlit as st
 import pandas as pd
 import asyncio
 import random
-import pandas as pd
-import streamlit as st
-import streamlit_ace as stace
-import duckdb
-import numpy as np  # for user session
-import scipy  # for user session
-import plotly_express
-import plotly.express as px  # for user session
-import plotly.figure_factory as ff  # for user session
-import matplotlib.pyplot as plt  # for user session
-import sklearn
-from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_report
 
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
@@ -25,10 +12,10 @@ from IPython.display import HTML, display
 import uuid
 import base64
 import json
-# import tkinter
-# import matplotlib
-# matplotlib.use('TkAgg')
-# import matplotlib.pyplot as plt
+import tkinter
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 
 col1, mid, col2= st.columns([1,1,20])
 with col1:
@@ -109,7 +96,7 @@ with tab1:
 
                     # Plot the bar chart
 
-#                     exec(answer1)
+                    exec(answer1)
         
     else:
         st.write('Please upload data file in order to ask questions to it.')
