@@ -12,9 +12,9 @@ from IPython.display import HTML, display
 import uuid
 import base64
 import json
-import tkinter
+# import tkinter
 import matplotlib
-matplotlib.use('TkAgg')
+# matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
 col1, mid, col2= st.columns([1,1,20])
