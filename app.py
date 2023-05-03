@@ -96,7 +96,7 @@ with tab1:
 
                     # Plot the bar chart
 
-                    exec(answer1)
+#                     exec(answer1)
         
     else:
         st.write('Please upload data file in order to ask questions to it.')
